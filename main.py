@@ -7,7 +7,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 logger = logging.getLogger(__name__)
 
-device_dict = {"livingroom":31, "bedroom":36, "kitchen":33, "bathroom":38 ,"attic":40, "all":None}
+device_dict = {"livingroom":31, "bedroom":36, "kitchen":33, "bathroom":38 ,"attic":40}
 
 def start(update, context):
     update.message.reply_text('Hi!, run /help to view the commands')
